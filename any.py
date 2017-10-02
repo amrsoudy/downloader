@@ -7,7 +7,7 @@ import  os
 import urllib.request
 import pafy
 import humanize
-
+print ('hiiiiiiiiiiiiii')
 FORM_CLASS,_= loadUiType(path.join(path.dirname(__file__),"joodi.ui"))
 class maindailog(QMainWindow,FORM_CLASS):
     def __init__(self,parent = None):
